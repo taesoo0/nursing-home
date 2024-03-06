@@ -1,0 +1,114 @@
+
+*{
+    list-style-type: none;
+    padding: 0px;
+    margin:0px;
+}
+
+a{
+    text-decoration: none;
+    color:#000000;
+}
+
+.header-section-wrapper{
+    height: 10%;
+    width: 100%;
+    padding: 0px 30px;
+    border-bottom: 1px solid #BCC0C6;
+}
+
+.header-section{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.header-section > div:last-child{
+    width: 100px;
+}
+
+.header-logo{
+    width: 5%;
+    background-color: #ffffff;
+    cursor:pointer;
+    text-align: center;
+    line-height: 74px;
+}
+
+.header-li-wrapper{
+    min-width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-li-wrapper li{
+    line-height:74px;
+    margin: 0px 20px;
+    cursor:pointer;
+}
+/*
+바디 부분
+*/
+
+.body-section-picture{
+    width: 100%;
+    background-color: gray;
+    height: 600px;
+}
+
+.body-section-picture>div{
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.body-section-picture>div>p{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight : bold;
+}
+
+/*
+여기 부터는 두번째 섹션입니다.
+*/
+
+.body-section2{
+    margin-top: 20px;
+    width: 100%;
+}
+.body-section2-text{
+    margin-bottom: 35px;
+}
+.body-section2-text>p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: inherit;
+}
+
+
+.body-section2-button-wrapper{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-section2>div>button{
+    border: 1px solid yellow;
+    background-color: #f9d628;
+    color: black;
+    font-weight: 1000;
+    font-size: 17px;
+    padding: 13px;
+    border-radius: 7px;
+    transition: 2s;
+    cursor:pointer;
+}
+
+.body-section2>div>button:hover{
+    background-color: rgba(255,255,102,0.3);
+}
+
