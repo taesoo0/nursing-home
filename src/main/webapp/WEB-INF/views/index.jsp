@@ -21,21 +21,16 @@
         </div>
     </div>
     <div class="body-section-wrapper">
-        <div class="body-section-picture">
-            여기에 백으로 사진사용
-            <div>
-                <p>행복한 사람들과 함께하면 행복해집니다.<br/>
+        <div class="body-section1">
+            <div class="body-section1-picture-wrapper">
+                <img class="body-section1-picture" src="../../resources/img/main-pic.jpg" alt="Card image cap">
+                <span class="imtext">
+                    행복한 사람들과 함께하면 행복해집니다.<br/>
                     가천재가와 함께라면 행복합니다.
-                </p>
+                </span>
             </div>
         </div>
         <div class="body-section2">
-            <div class="body-section2-text">
-                <p>
-                    문의 번호 </br>
-                    010-6859-5438
-                </p>
-            </div>
             <div class="body-section2-button-wrapper">
                 <button type="button" onclick="location.href='/intro'">
                       전화 상담
@@ -48,6 +43,14 @@
                 </button>
             </div>
         </div>
+    </div>
+    <div class="body-footer">
+        <div class="body-footer-text">
+            <p>
+                문의 번호 010-6859-5438
+            </p>
+        </div>
+
     </div>
 </div>
 </body>
